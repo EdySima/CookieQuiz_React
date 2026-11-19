@@ -80,5 +80,5 @@ The server runs at http://127.0.0.1:8000
 
 ## Screenshots
 
-![Api Get](./screenshots/api-get-quiz.png)
-![Dashboard Screen](./screenshots/dashboard-django.png)
+![Api Get](../screenshots/api-get-quiz.png)
+![Dashboard Screen](../screenshots/dashboard-django.png)
