@@ -1,0 +1,86 @@
+label{
+    font-size: 30px;
+}
+
+/* progress{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    background-color: lightgreen;
+    border: none;
+    margin: 10px 0 0 5%;
+    width: 70%;
+    height: 30px;
+    border-radius: 100px;
+} */
+progress {
+  border-radius: 100px;
+  border: none;
+  margin: 10px 0 0 5%;
+  width: 70%;
+  height: 22px;
+  background-color: #CE8B4D;
+}
+
+progress::-moz-progress-bar {
+    background-color: #632F0C;
+    border-radius: 100px;
+}
+.mainDiv{
+    text-align: center;
+    height: 350px;
+}
+
+.questionBody {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.questionText {
+    margin: 0;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.questionImage {
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 0;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.frontCard, .secondCard, .thirdCard{
+    position: absolute;
+    border-radius: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.frontCard{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 50%;
+    height: 350px;
+    background-color: #FFFDF0;
+}
+
+.secondCard{
+    width: 40%;
+    height: 360px;
+    background-color: #E9E7DC;
+}
+.thirdCard{
+    width: 30%;
+    height: 370px;
+    background-color: #D2D0C4;
+}

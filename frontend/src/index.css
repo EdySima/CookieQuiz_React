@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Luckiest Guy';
+  src: url(./resources/fonts/LuckiestGuy-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  background-image: url("resources/images/Background.png");
+  font-family: 'Luckiest Guy', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:#632F0C;
+}
+
+button {
+  font-family: 'Luckiest Guy', cursive;
+  color:#632F0C;
+}
+
+code {
+  font-family:'Luckiest Guy', cursive;
+  color:#632F0C;
+}
