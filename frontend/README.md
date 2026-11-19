@@ -34,6 +34,6 @@ Run tests:
 
 ## Screenshots
 
-![Start Screen](./screenshots/start-screen.png)
-![Home Screen](./screenshots/home-screen.png)
-![Quiz Screen](./screenshots/question-from-OpenTDB.png)
+![Start Screen](../screenshots/start-screen.png)
+![Home Screen](../screenshots/home-screen.png)
+![Quiz Screen](../screenshots/question-from-OpenTDB.png)
