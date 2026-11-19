@@ -52,7 +52,7 @@ source .venv/bin/activate
 
 3. Apply database migrations
 
-Run migrations only if you deleted `db.sqlite3` to start with a fresh database or if new migrations are added:
+3.1. Run migrations only if you deleted `db.sqlite3` to start with a fresh database or if new migrations are added:
 `python manage.py migrate`
 
 4. (Optional) Create an admin user to access the Django admin panel:
@@ -68,9 +68,9 @@ The server runs at http://127.0.0.1:8000
 
 ## Available Endpoints
 
-`GET /quiz/` — Returns a list of quiz questions (id, question, image, correct_answer, incorrect_answer_1, incorrect_answer_2, incorrect_answer_3).
-`GET /images/<path>` — Serves images referenced by the image field on questions.
-`GET /admin/` — Django administration interface.
+- `GET /quiz/` — Returns a list of quiz questions (id, question, image, correct_answer, incorrect_answer_1, incorrect_answer_2, incorrect_answer_3).
+- `GET /images/<path>` — Serves images referenced by the image field on questions.
+- `GET /admin/` — Django administration interface.
 
 
 ## CORS Configuration
